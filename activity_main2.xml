@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Image and upload to server" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Below image is uploaded to server"
+        android:layout_marginTop="5dp"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv"/>
+
+</LinearLayout>
